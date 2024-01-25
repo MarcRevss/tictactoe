@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tic-Tac-Toe </title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class ="firstPage">
+            <div class = "main-container">
+                <div class="xo-logo">
+                    <img src="assets/icon-x.svg">
+                    
+                    <img src="assets/icon-o.svg">
+                    
+                </div>
+        <div class="choose-box">
+            <div class ="pick-player-text"> <p class="pick-text">PICK PLAYERS 1'S MARK</p> </div>
+            <div class = "xo-choose"> 
+                <button id="choose-x" class="choose-button" state="inactive"><img src="assets/icon-x.svg"></button>
+                <button id="choose-y" class="choose-button" state="inactive"><img src="assets/icon-o.svg"></button>
+            </div>
+            <div class="remember-first"><p class="remember-text">REMEMBER: X GOES FIRST</p></div>
+        </div>
+
+        <div class = "new-game-buttons">
+            <button id = "vs-cpu" class="vs-cpu"> NEW GAME (VS CPU)</button>
+            <button id = "vs-player"class="vs-player" > NEW GAME (VS PLAYER) </button>
+        </div>
+
+            </div>
+        </div>
+        
+        <div class = "gamePage">
+            <div class="gameSection">
+                <div class="logoandRestart">
+                    
+                    <div class="logo"><img src="assets/icon-x.svg">                    
+                        <img src="assets/icon-o.svg"></div>
+                        <div class ="Xturn"> <img src="assets/icon-x.svg" class="xturnimg"> <span class="textTURN"> TURN</span>   </div>
+                        <div class ="Oturn"> <img src="assets/icon-o.svg" class="xturnimg"> <span class="textTURN"> TURN</span>   </div>
+                        <div class ="restartButton"><button id="restartButton"><img src="assets/icon-restart.svg" class="restartimage">   </button></div>
+               
+                    
+
+                </div>
+            <div class="tableofGame">
+                <table>
+                    <tbody>
+                        <tr> <th class="tic-box" id="cell1" marked=""><img src="" alt=""></th>
+                            <th class="tic-box" id="cell2"marked=""><img src="" alt=""></th>
+                            <th class="tic-box" id="cell3"marked=""><img src="" alt=""></th></tr>
+                            <tr>
+                                <th class="tic-box" id="cell4"marked=""><img src="" alt=""></th>
+                                <th class="tic-box" id="cell5"marked=""><img src="" alt=""></th>
+                                <th class="tic-box" id="cell6"marked=""><img src="" alt=""></th>
+
+                            </tr>
+                       <tr>
+                        <th class="tic-box" id="cell7"marked=""><img src="" alt=""></th>
+                        <th class="tic-box" id="cell8"marked=""><img src="" alt=""></th>
+                        <th class="tic-box" id="cell9"><img src="" alt=""></th>
+                       </tr>
+                    </tbody>
+                </table>
+                
+
+                </div>
+            <div class="thirdRow">
+                <div class="result" id="scoreX"><p id="score-of-X">X(P1)<br><p class="scorenumberX"> 0</p></div>
+                <div class="result" id="tie"><p>Ties<br><p class="scorenumbertie"> 0</p></div>
+                <div class="result" id="scoreO"><p id="score-of-O">O (CPU)<br><p class="scorenumberO"> 0</p></div>
+
+            </div>
+            </div>       
+        </div>
+        <div class = "singlePlayer">
+            <div class ="Player-winner">
+                <div class = "winner"><p>PLAYER 1 WINS</p></div>
+                <div class ="x-takes-round"><img src="assets/icon-x.svg" class="winner-logo-x"><img src="assets/icon-o.svg" class="winner-logo-o"><p class="takesTheRound">TAKES THE ROUND</p></div>             
+                <div class="quit-nextround-buttons"><button id="quit-button"> QUIT</button>
+                <button id="next-round-button">NEXT ROUND</button></div>
+            </div>
+
+            <div class="restartbuttonaction"><p class="textrestart">RESTART GAME?</p>
+            <div class="restartbuttons">
+                <button class="cancel"> NO,CANCEL</button>
+                <button class="yesrestart"> YES,RESTART</button></div>
+            </div>
+           
+            </div>
+
+            
+
+        </div>
+       
+
+      
+
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
