@@ -1,6 +1,6 @@
 # Tic-Tac-Toe Game Project
 
-This project is a Tic-Tac-Toe game implemented as part of the Frontend Mentor challenge. The goal of the challenge was to create a responsive and interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript.
+This project is a Tic-Tac-Toe game implemented as part of the Frontend Mentor challenge. The goal of the challenge was to create interactive Tic-Tac-Toe game using HTML, CSS, and JavaScript.
 
 
 ## Features
